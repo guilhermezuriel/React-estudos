@@ -1,0 +1,25 @@
+.flexProdutos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translateX(-20px);
+  animation: flexProdutos 0.3s forwards;
+  gap: 20px;
+}
+
+@keyframes flexProdutos{
+  to{
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+.produtos{
+  max-width: 400px;
+  list-style: none;
+}
+
+.produtos a{
+  text-decoration: none;
+  color: #111;
+}
